@@ -36,18 +36,19 @@
             'questions' => [
                 ['question' => 'The unofficial sponsor of Longhorn PHP goes by this name.', 'answer' => 'Who is Chonk McDuck?'],
                 ['question' => 'The unofficial sausage-themed conference, Wurstcon, began in this city.', 'answer' => 'What is Chicago?'],
-                ['question' => 'Ask for consent before impelementing this friendly PSR.', 'answer' => 'What is PSR-8?'],
+                ['question' => 'Ask for consent before implementing this friendly PSR.', 'answer' => 'What is PSR-8?'],
                 ['question' => 'Trying to run `empty(null)` used to generate this mouthful of an error.', 'answer' => 'What is T_PAAMAYIM_NEKUDOTAYIM?'],
                 ['question' => 'PHP has been rudely compared to this tool that you won\'t find at Home Depot.', 'answer' => 'What is a double claw hammer?'],
             ]
         ],
         [
             'name' => 'CONSTANTS',
-            'questions' => ['question' => "This constant's value represents the largest integer supported in the running build of PHP", 'answer'=>'PHP_INT_MAX'],
-['question' => "This error-reporting constant represents run-time notices about code that will not work in future versions", 'answer'=>'E_DEPRECATED'],
-['question' => "This platform-dependent constant tells you where one line ends and another begins", 'answer'=>'PHP_EOL'],
-['question' => "This constant is used with array_multisort to indicate that A would come before Z", 'answer'=>'SORT_ASC'],
-['question' => "This constant is used with the str_pad function to indicate that the newly-inserted string will prepend the existing one", 'answer'=>'STR_PAD_LEFT'],
+            'questions' => 
+                ['question' => "This constant's value represents the largest integer supported in the running build of PHP", 'answer'=>'PHP_INT_MAX'],
+                ['question' => "This error-reporting constant represents run-time notices about code that will not work in future versions", 'answer'=>'E_DEPRECATED'],
+                ['question' => "This platform-dependent constant tells you where one line ends and another begins", 'answer'=>'PHP_EOL'],
+                ['question' => "This constant is used with array_multisort to indicate that A would come before Z", 'answer'=>'SORT_ASC'],
+                ['question' => "This constant is used with the str_pad function to indicate that the newly-inserted string will prepend the existing one", 'answer'=>'STR_PAD_LEFT'],
             ]
         ]
     ],
