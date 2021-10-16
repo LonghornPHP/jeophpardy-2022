@@ -38,7 +38,7 @@
                 ['question' => 'This movie about disillusioned cubicle dwellers was filmed in Austin.', 'answer' => 'What is Office Space?'],
                 ['question' => 'Take a frigid morning swim in this local watering hole.', 'answer' => 'What is Barton Springs Pool?'],
                 ['question' => 'This Austin resident has starred in major blockbusters, but has lately focused on indie horror flicks.', 'answer' => 'Who is Elijah Wood?'],
-                ['question' => 'This local brewery and pizza restaurant puts "PHP" in their branding.', 'answer' => 'Pinthouse Pizza'],
+                ['question' => 'This local brewery and pizza restaurant puts "PHP" in their branding.', 'answer' => 'What is Pinthouse Pizza?'],
             ]
         ],
         [
