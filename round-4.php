@@ -51,5 +51,5 @@
                 ['question' => "This constant is used with the str_pad function to indicate that the newly-inserted string will prepend the existing one", 'answer'=>'STR_PAD_LEFT'],
             ]
         ]
-    ],
-]
+    ]
+];
