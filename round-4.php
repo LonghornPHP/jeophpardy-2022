@@ -43,7 +43,7 @@
         ],
         [
             'name' => 'CONSTANTS',
-            'questions' => 
+            'questions' => [
                 ['question' => "This constant's value represents the largest integer supported in the running build of PHP", 'answer'=>'PHP_INT_MAX'],
                 ['question' => "This error-reporting constant represents run-time notices about code that will not work in future versions", 'answer'=>'E_DEPRECATED'],
                 ['question' => "This platform-dependent constant tells you where one line ends and another begins", 'answer'=>'PHP_EOL'],
