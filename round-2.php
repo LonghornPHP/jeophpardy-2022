@@ -109,9 +109,28 @@ return [
             ]
         ],
         [
-            'name' => 'Old &amp;&amp; Busted',
+            'name' => 'FIG',
             'questions' => [
-
+                [
+                    'answer' => 'This is what "FIG" in "PHP-FIG" stands for.',
+                    'question' => 'What is Framework Interoperability Group?'
+                ],
+                [
+                    'answer' => 'The first standard approved by the PHP-FIG, PSR-0.',
+                    'question' => 'What is the Autoloading Standard?'
+                ],
+                [
+                    'answer' => 'This is what "PSR" stands for.',
+                    'question' => 'What is PHP Standard Recommendation?'
+                ],
+                [
+                    'answer' => 'Implementing this interface makes you very huggable.',
+                    'question' => 'What is PSR-8?'
+                ],
+                [
+                    'answer' => 'A PHP evolving recommendation that is allowed to change over time as PHP versions change.',
+                    'question' => 'What is a PER?'
+                ],
             ]
         ]
     ]
