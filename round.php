@@ -2,53 +2,127 @@
     'pointScale' => 200,
     'categories' => [
         [
-            'name' => 'Sponsors',
-            'questions' =>  [
-                ['question' => 'This is the PHP Framework for Web Artisans, and has an entire ecosystem of products and services for development', 'answer' => 'Who is Laravel?'],
-                ['question' => 'Billed as a developer\'s best friend, this diamond sponsor provides Application Performance Monitoring', 'answer' => 'Who is Scout APM?'],
-                ['question' => 'This platform was founded here in Austin, and works to match people with causes they care about', 'answer' => 'Who is Givepulse?'],
-                ['question' => 'This platinum sponsor describes their service as Plaid for the insurance space', 'answer' => 'Who is Covie?'],
-                ['question' => 'This sponsor is a serverless database platform you can start in seconds and scale indefinitely', 'answer' => 'Who is Planetscale?'],
-            ]
-        ],
-        [
-            'name' => 'Austin Trivia',
-            'questions' =>  [
-                ['question' => 'This "Gravity" star used to own Bess Bistro in downtown Austin before it closed, and still owns "Walton’s Fancy & Staple"', 'answer' => 'Who is Sandra Bullock?'],
-                ['question' => 'This was the original name of the city now known as Austin', 'answer' => 'What is Waterloo?'],
-                ['question' => 'This auto racing class has only one track in the US, The Circuit of Americas in Austin', 'answer' => 'What is Formula One?'],
-                ['question' => 'This was the city\'s first newspaper, according to the Texas State Historical Handbook', 'answer' => 'What is The Austin City Gazette?'],
-                ['question' => 'This Austinite broke many barriers including first woman in the Texas Senate, first Black woman to act as governor (for a day), first woman and first Black person to give the keynote address at the Democratic National Convention ', 'answer' => 'Who is Barbara Jordan?'],
-            ]
-        ],
-        [
             'name' => 'Speakers',
             'questions' =>  [
-                ['question' => 'This speaker shares programming tips in their beach-themed video tutorials.', 'answer' => 'Who is Adam Culp?'],
-                ['question' => 'This speaker wrote the book on web scraping.', 'answer' => 'Who is Matthew Turland?'],
-                ['question' => 'This speaker\'s largest open source project is named after a city from the Chronicles of Narnia.', 'answer' => 'Who is Taylor Otwell?'],
-                ['question' => 'This speaker organizes a conference focused on API specification formats.', 'answer' => 'Who is Taylor Barnett?'],
-                ['question' => 'This speaker based in Chicago enjoys distance running.', 'answer' => 'Who is Olivia Liddell?'],
+                [
+                    'answer' => 'Who is Michael Miles?',
+                    'question' => 'This speaker flew in from a city that rhymes with Austin.'
+                ],
+                [
+                    'answer' => 'Who is Mark Niebergall?',
+                    'question' => 'This speaker runs marathons and co-organizes a PHP user group with mountains in its logo.'
+                ],
+                [
+                    'answer' => 'Who is John Congdon?',
+                    'question' => 'This speaker currently has 90 paragliding flights and publishes a monthly PHP magazine.'
+                ],
+                [
+                    'answer' => 'Who is Katy Ereira?',
+                    'question' => 'This speaker has binary tattooed on their wrist but doesn\'t tell anyone what it says.'
+                ],
+                [
+                    'answer' => 'Who is Gunnard Engebreth?',
+                    'question' => 'This speaker\'s youtube channel named "ansivideos" features videos of releases from 90s BBS ANSI / ASCII art groups.'
+                ],
             ]
         ],
         [
-            'name' => 'Other Conferences',
+            'name' => 'Sponsors',
             'questions' =>  [
-                ['question' => 'This conference was held in Texas prior to Longhorn PHP', 'answer' => 'What is Lonestar PHP?'],
-                ['question' => 'This huge conference brings together fans of one of our Platinum sponsors.', 'answer' => 'What is Laracon?'],
-                ['question' => 'This PHP conference has been held in both the United States and Canada.', 'answer' => 'What is Northeast PHP?'],
-                ['question' => 'San Diego was home to this PHP conference in 2018.', 'answer' => 'What is Wave PHP?'],
-                ['question' => 'What city hosted Southeast PHP, organized by our speaker Matthew Trask, in 2018?', 'answer' => 'What is Nashville?'],
+                [
+                    'answer' => 'Who is PlanetScale?',
+                    'question' => 'This gold sponsor will ease any of your concerns about database bottlenecks.'
+                ],
+                [
+                    'answer' => 'Who is Geocodio?',
+                    'question' => 'This bronze sponsor makes it simple to turn addresses into coordinates.'
+                ],
+                [
+                    'answer' => 'Who is Atmosphere.tv?',
+                    'question' => 'This gold sponsor allows brick-and-mortar businesses to display streaming content to their customers. '
+                ],
+                [
+                    'answer' => 'Who is Laravel?',
+                    'question' => 'This gold sponsor has all the tools you need to build a modern web app.'
+                ],
+                [
+                    'answer' => 'Who is GivePulse?',
+                    'question' => 'This platinum sponsor helps people volunteer for causes they are passionate about.'
+                ],
             ]
         ],
         [
-            'name' => 'Which PHP Version',
+            'name' => 'New in PHP 8.2',
             'questions' =>  [
-                ['question' => 'Our speaker Sara Goleman was a release manager for how many PHP versions?', 'answer' => 'How many is 3?'],
-                ['question' => 'PHP 7 introduced this new interface which you can\'t implement directly, but you can catch.', 'answer' => 'What is Throwable?'],
-                ['question' => 'As of PHP 7.4, you can now add typehints on these.', 'answer' => 'What are class properties?'],
-                ['question' => 'Which PHP version introduced the `iterable` typehint?', 'answer' => 'What is PHP 7.1?'],
-                ['question' => 'PHP 8 introduced three new string functions: `str_starts_with()`, `str_ends_with()`, and this function', 'answer' => 'What is `str_contains()`?'],
+                [
+                    'answer' => 'What are disjunctive normal form types?',
+                    'question' => 'This feature allows you to combine union types and intersection types.'
+                ],
+                [
+                    'answer' => 'What are readonly classes?',
+                    'question' => 'This addition to a PHP 8.1 feature can be used to create a data-transfer object that can\'t be overwritten.'],
+                [
+                    'answer' => 'What are traits?',
+                    'question' => 'You can now add constants to this mechanism for code reuse.'
+                ],
+                [
+                    'answer' => 'What are dynamic properties?',
+                    'question' => 'You can no longer use this feature for modifying a class without a flag.'
+                ],
+                [
+                    'answer' => 'What are true, false, and null?',
+                    'question' => 'You can now use these primitives as standalone return types.'
+                ],
+            ]
+        ],
+        [
+            'name' => 'Frameworks',
+            'questions' =>  [
+                [
+                    'answer' => 'What is Yii?',
+                    'question' => 'Craft CMS is built on top of this framework.'
+                ],
+                [
+                    'answer' => 'What is Laminas Project?',
+                    'question' => 'This framework is the successor to the Zend Framework.'
+                ],
+                [
+                    'answer' => 'What is Phalcon?',
+                    'question' => 'This framework will be moving into userland for the first time soon.'
+                ],
+                [
+                    'answer' => 'What is Symfony?',
+                    'question' => 'Laravel builds on top of crucial components from this framework.'
+                ],
+                [
+                    'answer' => 'What is CakePHP?',
+                    'question' => 'This is the sweetest of the PHP frameworks.'
+                ],
+            ]
+        ],
+        [
+            'name' => 'Conferences',
+            'questions' =>  [
+                [
+                    'answer' => 'What is Northeast PHP?',
+                    'question' => 'This conference was held in both the United States and Canada.'
+                ],
+                [
+                    'answer' => 'What is Sunshine PHP?',
+                    'question' => 'This conference is organized by one of our speakers, and prominently features the color yellow.'
+                ],
+                [
+                    'answer' => 'What is ZendCon?',
+                    'question' => 'This conference was organized for many years by one of our platinum sponsors.'
+                ],
+                [
+                    'answer' => 'What is Lone Star PHP?',
+                    'question' => 'This conference ran for 7 years in Dallas, TX.'
+                ],
+                [
+                    'answer' => 'What is PHP Benelux?',
+                    'question' => 'This conference caters to developers from Belgium, The Netherlands & Luxembourg.'
+                ],
             ]
         ],
     ]

@@ -54,11 +54,16 @@
 			$('.game .tile').one('click', function() {
 				var points = parseInt($(this).data('points'));
 				var answer = $(this).data('answer');
+				var image = $(this).data('image');
 				// Show the question.
 				$('.question').show();
 				$('.award, .show-answer').show();
 				// Setup question text
 				$('.question .text').text($(this).data('question'));
+				if (image.length > 0) {
+					$('.question .text').append('<br><img src="" />');
+					$('.question .text img').attr('src', $(this).data('image'));
+				}
 				// Create buttons for score keeping.
 				$('.award').click('click', function() {
 					var score = $('.' + $(this).data('player') + '-score');
@@ -122,7 +127,8 @@
 						<?php $class = 'tile'; ?>
 						<td class="<?php echo $class ?>" data-points="<?php echo $points ?>"
 							data-question="<?php echo htmlentities($data['question'], ENT_QUOTES, 'UTF-8'); ?>"
-							data-answer="<?php echo htmlentities($data['answer'], ENT_QUOTES, 'UTF-8'); ?>">$<?php echo $points ?></td>
+							data-answer="<?php echo htmlentities($data['answer'], ENT_QUOTES, 'UTF-8'); ?>"
+							data-image="<?php echo empty($data['image']) ? '' : htmlspecialchars($data['image'], ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML5); ?>">$<?php echo $points ?></td>
 					<?php endfor ?>
 				</tr>
 			<?php endfor; ?>
