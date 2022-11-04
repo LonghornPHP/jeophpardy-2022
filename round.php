@@ -55,29 +55,43 @@
             'name' => 'New in PHP 8.2',
             'questions' =>  [
                 [
-                    'answer' => 'What are disjunctive normal form types?',
-                    'question' => 'This feature allows you to combine union types and intersection types.'
-                ],
-                [
-                    'answer' => 'What are readonly classes?',
-                    'question' => 'This addition to a PHP 8.1 feature can be used to create a data-transfer object that can\'t be overwritten.'],
-                [
-                    'answer' => 'What are traits?',
-                    'question' => 'You can now add constants to this mechanism for code reuse.'
+                    'answer' => 'What are true, false, and null?',
+                    'question' => 'You can now use these primitives as standalone return types.'
                 ],
                 [
                     'answer' => 'What are dynamic properties?',
                     'question' => 'You can no longer use this feature for modifying a class without a flag.'
                 ],
                 [
-                    'answer' => 'What are true, false, and null?',
-                    'question' => 'You can now use these primitives as standalone return types.'
+                    'answer' => 'What are traits?',
+                    'question' => 'You can now add constants to this mechanism for code reuse.'
                 ],
+                [
+                    'answer' => 'What are readonly classes?',
+                    'question' => 'This addition to a PHP 8.1 feature can be used to create a data-transfer object that can\'t be overwritten.'
+                ],
+                [
+                    'answer' => 'What are disjunctive normal form types?',
+                    'question' => 'This feature allows you to combine union types and intersection types.'
+                ],
+
             ]
         ],
         [
             'name' => 'Frameworks',
             'questions' =>  [
+                [
+                    'answer' => 'What is CakePHP?',
+                    'question' => 'This is the sweetest of the PHP frameworks.'
+                ],
+                [
+                    'answer' => 'What is Symfony?',
+                    'question' => 'Laravel builds on top of crucial components from this framework.'
+                ],
+                [
+                    'answer' => 'What is Phalcon?',
+                    'question' => 'This framework will be moving into userland for the first time soon.'
+                ],
                 [
                     'answer' => 'What is Yii?',
                     'question' => 'Craft CMS is built on top of this framework.'
@@ -85,18 +99,6 @@
                 [
                     'answer' => 'What is Laminas Project?',
                     'question' => 'This framework is the successor to the Zend Framework.'
-                ],
-                [
-                    'answer' => 'What is Phalcon?',
-                    'question' => 'This framework will be moving into userland for the first time soon.'
-                ],
-                [
-                    'answer' => 'What is Symfony?',
-                    'question' => 'Laravel builds on top of crucial components from this framework.'
-                ],
-                [
-                    'answer' => 'What is CakePHP?',
-                    'question' => 'This is the sweetest of the PHP frameworks.'
                 ],
             ]
         ],
